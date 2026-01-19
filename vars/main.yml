@@ -5,7 +5,7 @@ _collabora_online_key_checksum:
   Debian: sha256:b77f959916c0ec2072b72860d80f9c066910d9bddd2f69534b488f4b4d5ca4dd
   RedHat: "https://www.collaboraoffice.com/repos/CollaboraOnline/CODE-centos7/repodata/repomd.xml.key"
 
-collabora_online_key_checksum: "{{ _collabora_online_key[ansible_os_family] }}"
+collabora_online_key_checksum: "{{ _collabora_online_key_checksum[ansible_os_family] }}"
 
 collabora_online_base_url: "https://www.collaboraoffice.com/repos/CollaboraOnline"
 
