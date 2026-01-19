@@ -53,3 +53,4 @@ _collabora_online_packages:
       - collabora-online-brand
 
 collabora_online_packages: "{{ _collabora_online_packages[collabora_online_type][ansible_os_family] | default(_collabora_online_packages[collabora_online_type]['default']) }}"
+collabora_online_ssl_termination: true
